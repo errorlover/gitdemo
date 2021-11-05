@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="url" value = "https:\\demo.opencart.com/"></parameter>
+  <parameter name="emailId" value = "hemanth1@gmail.com"></parameter>
+  <parameter name="password" value = "wipro@123"></parameter>
+    <classes>
+      <class name="TestNg_projects_for_xml.TestNg1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
